@@ -7,16 +7,7 @@ import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import kotlinx.android.synthetic.main.activity_register.*
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import waslim.binar.andlima.challengech06v10.R
-import waslim.binar.andlima.challengech06v10.datastore.DataUserManager
-import waslim.binar.andlima.challengech06v10.model.datauser.DataUserResponseItem
-import waslim.binar.andlima.challengech06v10.model.datauser.PostRequest
-import waslim.binar.andlima.challengech06v10.network.ApiClient
 import waslim.binar.andlima.challengech06v10.viewmodel.ViewModelUser
 
 class RegisterActivity : AppCompatActivity() {
